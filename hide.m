@@ -18,7 +18,7 @@ function hide(name, secret)
 
   %hist(k, 600);
 
-  T = 5;
+  T = 2;
 
   fd = fopen(secret, "r");
   msg = fread(fd,'ubit1');
